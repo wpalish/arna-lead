@@ -1,0 +1,125 @@
+{
+  "revision": 6,
+  "data": {
+    "leads": [
+      {
+        "code": "SYN-004",
+        "title": "Синтетическая консультация",
+        "channel": "manual",
+        "language": "ru",
+        "context": "Обновлённый синтетический контекст: сначала уточнить онлайн-формат, затем время.",
+        "owner": "beta",
+        "status": "open",
+        "initialOwner": "alpha",
+        "version": 3,
+        "id": "254342e2-a916-40c3-a594-10fb06fc32d3",
+        "createdAt": "2026-10-25T10:22:05.470Z",
+        "createdBy": "alpha",
+        "updatedAt": "2026-10-25T10:23:45.362Z",
+        "archived": false
+      }
+    ],
+    "transfers": [
+      {
+        "lead": "254342e2-a916-40c3-a594-10fb06fc32d3",
+        "recipient": "beta",
+        "contextRu": "Уточнить формат консультации, затем согласовать время. SYNTHETIC.",
+        "contextKk": "",
+        "status": "cancelled",
+        "note": "SYN: контекст обновлён, нужно новое предложение.",
+        "sender": "alpha",
+        "snapshot": {
+          "id": "254342e2-a916-40c3-a594-10fb06fc32d3",
+          "code": "SYN-004",
+          "title": "Синтетическая консультация",
+          "channel": "manual",
+          "language": "ru",
+          "context": "Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.",
+          "status": "open",
+          "owner": "alpha",
+          "version": 1
+        },
+        "decision": {
+          "by": "alpha",
+          "at": "2026-10-25T10:23:33.691Z",
+          "note": "SYN: контекст обновлён, нужно новое предложение."
+        },
+        "acceptedVersion": null,
+        "id": "56afd6c8-516d-4af5-aaea-cba18dd9189f",
+        "createdAt": "2026-10-25T10:22:14.286Z",
+        "createdBy": "alpha",
+        "updatedAt": "2026-10-25T10:23:33.691Z",
+        "archived": false
+      },
+      {
+        "lead": "254342e2-a916-40c3-a594-10fb06fc32d3",
+        "recipient": "beta",
+        "contextRu": "SYN: сначала уточнить онлайн-формат, затем время. Контекст v2 прочитан.",
+        "contextKk": "SYN: алдымен онлайн форматты, содан кейін уақытты нақтылау.",
+        "status": "accepted",
+        "note": "SYN-ACCEPT-004: актуальный контекст прочитан, беру внутреннюю ответственность.",
+        "sender": "alpha",
+        "snapshot": {
+          "id": "254342e2-a916-40c3-a594-10fb06fc32d3",
+          "code": "SYN-004",
+          "title": "Синтетическая консультация",
+          "channel": "manual",
+          "language": "ru",
+          "context": "Обновлённый синтетический контекст: сначала уточнить онлайн-формат, затем время.",
+          "status": "open",
+          "owner": "alpha",
+          "version": 2
+        },
+        "decision": {
+          "by": "beta",
+          "at": "2026-10-25T10:23:45.362Z",
+          "note": "SYN-ACCEPT-004: актуальный контекст прочитан, беру внутреннюю ответственность."
+        },
+        "acceptedVersion": 3,
+        "id": "bf784ba6-5fb5-4b2c-80d3-cc5d45596a22",
+        "createdAt": "2026-10-25T10:23:40.189Z",
+        "createdBy": "alpha",
+        "updatedAt": "2026-10-25T10:23:45.362Z",
+        "archived": false
+      }
+    ]
+  },
+  "audit": [
+    {
+      "id": "8fc95db1-e1ed-49ff-b3dc-156651a52872",
+      "at": "2026-10-25T10:22:05.470Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"leads\",\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"operation\":\"save\",\"before\":null,\"after\":{\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"owner\":\"alpha\",\"status\":\"open\",\"initialOwner\":\"alpha\",\"version\":1,\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"createdAt\":\"2026-10-25T10:22:05.470Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:22:05.470Z\",\"archived\":false}}"
+    },
+    {
+      "id": "3b59a99b-0bc4-4275-a8fb-042d12ff7da0",
+      "at": "2026-10-25T10:22:14.286Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"transfers\",\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"operation\":\"save\",\"before\":null,\"after\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"Уточнить формат консультации, затем согласовать время. SYNTHETIC.\",\"contextKk\":\"\",\"status\":\"offered\",\"note\":\"\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":1},\"decision\":null,\"acceptedVersion\":null,\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"createdAt\":\"2026-10-25T10:22:14.286Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:22:14.286Z\",\"archived\":false}}"
+    },
+    {
+      "id": "bb608302-fc8b-4211-9c2d-a903d7daaa21",
+      "at": "2026-10-25T10:23:00.860Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"leads\",\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"operation\":\"save\",\"before\":{\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"owner\":\"alpha\",\"status\":\"open\",\"initialOwner\":\"alpha\",\"version\":1,\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"createdAt\":\"2026-10-25T10:22:05.470Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:22:05.470Z\",\"archived\":false},\"after\":{\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Обновлённый синтетический контекст: сначала уточнить онлайн-формат, затем время.\",\"owner\":\"alpha\",\"status\":\"open\",\"initialOwner\":\"alpha\",\"version\":2,\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"createdAt\":\"2026-10-25T10:22:05.470Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:23:00.860Z\",\"archived\":false}}"
+    },
+    {
+      "id": "ffa51335-67d7-451d-a83d-56bea4ff4dfe",
+      "at": "2026-10-25T10:23:33.691Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"transfers\",\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"operation\":\"save\",\"before\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"Уточнить формат консультации, затем согласовать время. SYNTHETIC.\",\"contextKk\":\"\",\"status\":\"offered\",\"note\":\"\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":1},\"decision\":null,\"acceptedVersion\":null,\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"createdAt\":\"2026-10-25T10:22:14.286Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:22:14.286Z\",\"archived\":false},\"after\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"Уточнить формат консультации, затем согласовать время. SYNTHETIC.\",\"contextKk\":\"\",\"status\":\"cancelled\",\"note\":\"SYN: контекст обновлён, нужно новое предложение.\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":1},\"decision\":{\"by\":\"alpha\",\"at\":\"2026-10-25T10:23:33.691Z\",\"note\":\"SYN: контекст обновлён, нужно новое предложение.\"},\"acceptedVersion\":null,\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"createdAt\":\"2026-10-25T10:22:14.286Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:23:33.691Z\",\"archived\":false}}"
+    },
+    {
+      "id": "4cc61bee-7ba9-4171-a38f-1e273345321b",
+      "at": "2026-10-25T10:23:40.189Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"transfers\",\"id\":\"bf784ba6-5fb5-4b2c-80d3-cc5d45596a22\",\"operation\":\"save\",\"before\":null,\"after\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"SYN: сначала уточнить онлайн-формат, затем время. Контекст v2 прочитан.\",\"contextKk\":\"SYN: алдымен онлайн форматты, содан кейін уақытты нақтылау.\",\"status\":\"offered\",\"note\":\"\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Обновлённый синтетический контекст: сначала уточнить онлайн-формат, затем время.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":2},\"decision\":null,\"acceptedVersion\":null,\"id\":\"bf784ba6-5fb5-4b2c-80d3-cc5d45596a22\",\"createdAt\":\"2026-10-25T10:23:40.189Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:23:40.189Z\",\"archived\":false}}"
+    },
+    {
+      "id": "5519609a-6602-4df6-a8e3-5c99df899615",
+      "at": "2026-10-25T10:23:45.362Z",
+      "actor": "beta",
+      "command": "{\"collection\":\"transfers\",\"id\":\"bf784ba6-5fb5-4b2c-80d3-cc5d45596a22\",\"operation\":\"save\",\"before\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"SYN: сначала уточнить онлайн-формат, затем время. Контекст v2 прочитан.\",\"contextKk\":\"SYN: алдымен онлайн форматты, содан кейін уақытты нақтылау.\",\"status\":\"offered\",\"note\":\"\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Обновлённый синтетический контекст: сначала уточнить онлайн-формат, затем время.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":2},\"decision\":null,\"acceptedVersion\":null,\"id\":\"bf784ba6-5fb5-4b2c-80d3-cc5d45596a22\",\"createdAt\":\"2026-10-25T10:23:40.189Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:23:40.189Z\",\"archived\":false},\"after\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"SYN: сначала уточнить онлайн-формат, затем время. Контекст v2 прочитан.\",\"contextKk\":\"SYN: алдымен онлайн форматты, содан кейін уақытты нақтылау.\",\"status\":\"accepted\",\"note\":\"SYN-ACCEPT-004: актуальный контекст прочитан, беру внутреннюю ответственность.\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Обновлённый синтетический контекст: сначала уточнить онлайн-формат, затем время.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":2},\"decision\":{\"by\":\"beta\",\"at\":\"2026-10-25T10:23:45.362Z\",\"note\":\"SYN-ACCEPT-004: актуальный контекст прочитан, беру внутреннюю ответственность.\"},\"acceptedVersion\":3,\"id\":\"bf784ba6-5fb5-4b2c-80d3-cc5d45596a22\",\"createdAt\":\"2026-10-25T10:23:40.189Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:23:45.362Z\",\"archived\":false}}"
+    }
+  ]
+}

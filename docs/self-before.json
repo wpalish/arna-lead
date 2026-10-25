@@ -1,0 +1,66 @@
+{
+  "revision": 2,
+  "data": {
+    "leads": [
+      {
+        "code": "SYN-004",
+        "title": "Синтетическая консультация",
+        "channel": "manual",
+        "language": "ru",
+        "context": "Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.",
+        "owner": "alpha",
+        "status": "open",
+        "initialOwner": "alpha",
+        "version": 1,
+        "id": "254342e2-a916-40c3-a594-10fb06fc32d3",
+        "createdAt": "2026-10-25T10:22:05.470Z",
+        "createdBy": "alpha",
+        "updatedAt": "2026-10-25T10:22:05.470Z",
+        "archived": false
+      }
+    ],
+    "transfers": [
+      {
+        "lead": "254342e2-a916-40c3-a594-10fb06fc32d3",
+        "recipient": "beta",
+        "contextRu": "Уточнить формат консультации, затем согласовать время. SYNTHETIC.",
+        "contextKk": "",
+        "status": "offered",
+        "note": "",
+        "sender": "alpha",
+        "snapshot": {
+          "id": "254342e2-a916-40c3-a594-10fb06fc32d3",
+          "code": "SYN-004",
+          "title": "Синтетическая консультация",
+          "channel": "manual",
+          "language": "ru",
+          "context": "Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.",
+          "status": "open",
+          "owner": "alpha",
+          "version": 1
+        },
+        "decision": null,
+        "acceptedVersion": null,
+        "id": "56afd6c8-516d-4af5-aaea-cba18dd9189f",
+        "createdAt": "2026-10-25T10:22:14.286Z",
+        "createdBy": "alpha",
+        "updatedAt": "2026-10-25T10:22:14.286Z",
+        "archived": false
+      }
+    ]
+  },
+  "audit": [
+    {
+      "id": "8fc95db1-e1ed-49ff-b3dc-156651a52872",
+      "at": "2026-10-25T10:22:05.470Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"leads\",\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"operation\":\"save\",\"before\":null,\"after\":{\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"owner\":\"alpha\",\"status\":\"open\",\"initialOwner\":\"alpha\",\"version\":1,\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"createdAt\":\"2026-10-25T10:22:05.470Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:22:05.470Z\",\"archived\":false}}"
+    },
+    {
+      "id": "3b59a99b-0bc4-4275-a8fb-042d12ff7da0",
+      "at": "2026-10-25T10:22:14.286Z",
+      "actor": "alpha",
+      "command": "{\"collection\":\"transfers\",\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"operation\":\"save\",\"before\":null,\"after\":{\"lead\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"recipient\":\"beta\",\"contextRu\":\"Уточнить формат консультации, затем согласовать время. SYNTHETIC.\",\"contextKk\":\"\",\"status\":\"offered\",\"note\":\"\",\"sender\":\"alpha\",\"snapshot\":{\"id\":\"254342e2-a916-40c3-a594-10fb06fc32d3\",\"code\":\"SYN-004\",\"title\":\"Синтетическая консультация\",\"channel\":\"manual\",\"language\":\"ru\",\"context\":\"Нужен организационный ответ о формате встречи. Настоящих клиентских данных нет.\",\"status\":\"open\",\"owner\":\"alpha\",\"version\":1},\"decision\":null,\"acceptedVersion\":null,\"id\":\"56afd6c8-516d-4af5-aaea-cba18dd9189f\",\"createdAt\":\"2026-10-25T10:22:14.286Z\",\"createdBy\":\"alpha\",\"updatedAt\":\"2026-10-25T10:22:14.286Z\",\"archived\":false}}"
+    }
+  ]
+}

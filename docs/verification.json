@@ -1,0 +1,86 @@
+{
+  "product": "arna-lead",
+  "title": "ArnaLead",
+  "reference": 4,
+  "version": "0.1.0",
+  "as_of": "2026-10-25T10:28:41.386815+00:00",
+  "tests": {
+    "passed": 15,
+    "failed": 0,
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "acceptance": [
+      "Actual IAB alpha and Chrome beta:offer preserves owner;alpha cannot accept;lead context edit makes beta old form and refreshed stale snapshot refuse with retained input;exact workspace/audit unchanged",
+      "Alpha explicitly cancelled v1 offer,created v2 RU/KK offer;beta explicitly accepted;lead ownerbeta/v3,1lead/2transfers,workspace6/audit6",
+      "Owned runtime11019→11100 preserved exact workspace/audit;21 previous server databases unchanged;public SabaqLoop owner origin untouched",
+      "Fullpage1440/1280/390 current captures validated;actual390 document/scrollWidth390;native disclosure and refusal recovery reviewed ship"
+    ],
+    "proof": "work/program/arna-browser-proof.json",
+    "desktop": "docs/desktop-full.png",
+    "mobile": "docs/mobile-full.png",
+    "actual_viewports": [
+      1440,
+      1280,
+      390
+    ],
+    "stale_refusal_before": "work/program/arna-stale-before.json",
+    "stale_refusal_after": "work/program/arna-stale-after.json",
+    "external_message_sent": false
+  },
+  "acceptance": [
+    "15 domain/HTTP/file tests pass;actual owner/recipient roles,stale form/snapshot,self/duplicate/double acceptance,archive and malformed restore refusals preserve data/audit",
+    "Actual IAB alpha and Chrome beta:offer preserves owner;alpha cannot accept;lead context edit makes beta old form and refreshed stale snapshot refuse with retained input;exact workspace/audit unchanged",
+    "Alpha explicitly cancelled v1 offer,created v2 RU/KK offer;beta explicitly accepted;lead ownerbeta/v3,1lead/2transfers,workspace6/audit6",
+    "Owned runtime11019→11100 preserved exact workspace/audit;21 previous server databases unchanged;public SabaqLoop owner origin untouched",
+    "Fullpage1440/1280/390 current captures validated;actual390 document/scrollWidth390;native disclosure and refusal recovery reviewed ship"
+  ],
+  "limits": [
+    "One shared organization;all staff see all data,ownership only controls writes/decisions",
+    "No email/WhatsApp import,integration,external message,AI,translation,CRM,sales or payment",
+    "Internal acceptance records accountability only,not client consent,signature,contact or sale",
+    "Unsigned JSON validates structure/ownership chain,not authenticity;accounts and audit excluded;recreate accounts before empty restore",
+    "No password reset/session revocation UI,tenant isolation,public server hosting,load test,external full security audit or client acceptance",
+    "Global revision may conflict on unrelated edits;refresh/manual reconciliation,no merge",
+    "Not all intermediate lead versions are embedded in JSON;offered/terminal handover snapshots are preserved"
+  ],
+  "runtime": {
+    "pid": 11100,
+    "port": 8844,
+    "script": "work/program/run-arna-lead.mjs",
+    "before": "work/program/arna-restart-before.json",
+    "after": "work/program/arna-restart-after.json"
+  },
+  "preservation": {
+    "before": "work/program/arna-prior-before.json",
+    "after": "work/program/arna-prior-after.json",
+    "previous_servers": 21,
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship",
+    "file": "docs/finish-review.json",
+    "scope": "Independent inherited Operate UI/source/capture review;not full external security audit",
+    "detector": "One static detect --json invocation on public files returned [];no browser parsed-page or complete security claim."
+  },
+  "commercial": {
+    "potential_company_matches": 10,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "ArnaLead is original reference4 manual two-party ownership transfer,distinct from OrtaInbox reply approval.15 domain/HTTP/file tests,actual two-account browser stale/self refusals preserve whole data/audit;explicit cancel→fresh snapshotv2→recipient acceptance changes owner to beta/leadv3 atomically. Final1lead/2transfers/revision6/audit6 exact across owned restart11019→11100;21 prior server DB fingerprints unchanged. Current fullpage1440/1280/390 captures,390 scrollWidth390,independent finishreview ship;no full external securityaudit.10 official-source hypotheses,unknown demand/budget/interest;no outgoing mail,16previousSent/suppression retained. No import/messages/AI/translation/client event.",
+  "public_evidence": [
+    "docs/browser-proof.json",
+    "docs/self-before.json",
+    "docs/self-after.json",
+    "docs/stale-before.json",
+    "docs/stale-after.json",
+    "docs/runtime-before.json",
+    "docs/runtime-after.json",
+    "docs/previous-servers-before.json",
+    "docs/previous-servers-after.json"
+  ]
+}

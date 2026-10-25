@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: offer preserves owner;explicit recipient acceptance changes it atomically with exact immutable snapshot
+ok 1 - offer preserves owner;explicit recipient acceptance changes it atomically with exact immutable snapshot
+  ---
+  duration_ms: 14.74725
+  type: 'test'
+  ...
+# Subtest: only owner proposes;self transfer,unknown lead and duplicate outstanding offer refused
+ok 2 - only owner proposes;self transfer,unknown lead and duplicate outstanding offer refused
+  ---
+  duration_ms: 0.617375
+  type: 'test'
+  ...
+# Subtest: only recipient decides;administrator cannot accept on behalf;decision requires note
+ok 3 - only recipient decides;administrator cannot accept on behalf;decision requires note
+  ---
+  duration_ms: 0.742708
+  type: 'test'
+  ...
+# Subtest: sender alone cancels;archive does not cancel offered;closed lead needs explicit decision first
+ok 4 - sender alone cancels;archive does not cancel offered;closed lead needs explicit decision first
+  ---
+  duration_ms: 0.994333
+  type: 'test'
+  ...
+# Subtest: edited lead invalidates offer even with fresh global revision;cancel then new offer succeeds
+ok 5 - edited lead invalidates offer even with fresh global revision;cancel then new offer succeeds
+  ---
+  duration_ms: 0.813375
+  type: 'test'
+  ...
+# Subtest: stale form cannot overwrite newer lead or accept unseen change
+ok 6 - stale form cannot overwrite newer lead or accept unseen change
+  ---
+  duration_ms: 0.731083
+  type: 'test'
+  ...
+# Subtest: source owner and frozen handover fields cannot be reassigned directly;metadata supplied by client ignored
+ok 7 - source owner and frozen handover fields cannot be reassigned directly;metadata supplied by client ignored
+  ---
+  duration_ms: 0.799167
+  type: 'test'
+  ...
+# Subtest: selected RU or KK requires corresponding authored context;no automatic translation
+ok 8 - selected RU or KK requires corresponding authored context;no automatic translation
+  ---
+  duration_ms: 0.493959
+  type: 'test'
+  ...
+# Subtest: closed or archived lead refuses new handover;archive preserves accepted snapshot and ownership chain
+ok 9 - closed or archived lead refuses new handover;archive preserves accepted snapshot and ownership chain
+  ---
+  duration_ms: 0.623167
+  type: 'test'
+  ...
+# Subtest: return handover builds chain;former owner cannot edit;terminal records immutable
+ok 10 - return handover builds chain;former owner cannot edit;terminal records immutable
+  ---
+  duration_ms: 0.698709
+  type: 'test'
+  ...
+# Subtest: file restart and empty restore preserve ownership,exact snapshots and audit;nonempty restore refused
+ok 11 - file restart and empty restore preserve ownership,exact snapshots and audit;nonempty restore refused
+  ---
+  duration_ms: 7.126166
+  type: 'test'
+  ...
+# Subtest: malformed copies cannot forge ownership chain,decision,snapshot version or archive outstanding offer
+ok 12 - malformed copies cannot forge ownership chain,decision,snapshot version or archive outstanding offer
+  ---
+  duration_ms: 0.918083
+  type: 'test'
+  ...
+# Subtest: HTTP authentication,Origin,CSRF,roles and actual account existence protect commands
+ok 13 - HTTP authentication,Origin,CSRF,roles and actual account existence protect commands
+  ---
+  duration_ms: 167.06
+  type: 'test'
+  ...
+# Subtest: HTTP two operators offer/accept;repeat and unauthorized acceptance leave whole data/audit unchanged
+ok 14 - HTTP two operators offer/accept;repeat and unauthorized acceptance leave whole data/audit unchanged
+  ---
+  duration_ms: 133.264458
+  type: 'test'
+  ...
+# Subtest: HTTP restore requires existing referenced accounts and product cookie rejects sibling application
+ok 15 - HTTP restore requires existing referenced accounts and product cookie rejects sibling application
+  ---
+  duration_ms: 127.559
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 534.788

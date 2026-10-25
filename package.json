@@ -1,0 +1,14 @@
+{
+  "name": "arna-lead",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ручная передача лида с явным принятием новым ответственным.",
+  "engines": {
+    "node": ">=24.15 <25"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "node --test --test-reporter=tap tests/*.test.js"
+  }
+}

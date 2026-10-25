@@ -1,0 +1,14 @@
+[
+  {
+    "file": "app.js",
+    "status": 200,
+    "cache_control": "no-cache",
+    "sha256": "1cd23298d022feb5d5bc1482a8930c461eccabee1442d68a34fe8c2252ab367e"
+  },
+  {
+    "file": "styles.css",
+    "status": 200,
+    "cache_control": "no-cache",
+    "sha256": "beba7cb9ad7a60737cdf9de3263b0e6029220b29cb6396028686ce23623fa5e8"
+  }
+]

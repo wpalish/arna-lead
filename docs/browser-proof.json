@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-25T10:27:13.925Z",
+  "synthetic_only": true,
+  "steps": [
+    "IAB alpha manually registered SYN-004 with initial owner alpha",
+    "Alpha offered transfer to beta;owner stayed alpha at leadv1/workspace2",
+    "Alpha attempted acceptance;server refused only recipient;typed note preserved;workspace/audit unchanged",
+    "Beta Chrome form remained open while alpha changed context to leadv2/workspace3;old form refused globalrevision",
+    "Beta reloaded offer;fresh form still refused exact stale snapshot;workspace3/audit3 unchanged for both refusals",
+    "Alpha explicitly cancelled old offer;fresh offer snapshotv2 includes authored RU/KK contexts",
+    "Beta explicitly accepted with note SYN-ACCEPT-004;lead ownerbeta/v3;workspace6/audit6",
+    "Owned runtime restart11019→11100 exact workspace/audit;21 previous server DB fingerprints unchanged",
+    "Reload read exact terminal snapshots v1cancelled/v2accepted;actual IAB1440/1280/390 fullpagecaptures;390 scrollWidth390,native disclosure-open"
+  ],
+  "external_message_sent": false,
+  "final": {
+    "leads": 1,
+    "transfers": 2,
+    "owner": "beta",
+    "leadVersion": 3,
+    "revision": 6,
+    "audit": 6
+  },
+  "limits": [
+    "No real customer data or external message",
+    "No touch/full mobile workflow claim",
+    "No browser quota/load/external full security audit"
+  ]
+}

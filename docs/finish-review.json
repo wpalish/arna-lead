@@ -1,0 +1,111 @@
+{
+  "disposition": "ship",
+  "persistence": {
+    "status": "pass",
+    "specifics": [
+      "PRODUCT.md exists and records the bounded manual, two-party handover and unchanged-owner-until-acceptance rule.",
+      "The incumbent OrtaInbox DESIGN.md matches this local Operate extension: navy header, pale blue workspace, system typography, flat bordered forms, green actions, native disclosures.",
+      "All five required captures are present and valid, with document top, complete content, no blank capture regions, and suitable dimensions.",
+      "This is an inherited local extension, so a new concept seed, approved comp, comp reproduction state, and visual-world quality board are not applicable.",
+      "The supplied single static detector result is []; no second detector was run.",
+      "Workflow, atomicity, persistence, and restart results are supplied primary-agent evidence; this review independently inspected the screenshots and the current app.js, styles.css, and index.html."
+    ],
+    "captures": [
+      {
+        "file": "outputs/products/arna-lead-desktop-full.png",
+        "width": 1440,
+        "height": 1838,
+        "status": "valid"
+      },
+      {
+        "file": "outputs/products/arna-lead-mobile-full.png",
+        "width": 390,
+        "height": 2111,
+        "status": "valid"
+      },
+      {
+        "file": "outputs/products/arna-lead-user-1280.png",
+        "width": 1280,
+        "height": 1838,
+        "status": "valid"
+      },
+      {
+        "file": "outputs/products/arna-lead-self-refusal.png",
+        "width": 1280,
+        "height": 1691,
+        "status": "valid"
+      },
+      {
+        "file": "outputs/products/arna-lead-stale-refusal.png",
+        "width": 1113,
+        "height": 1805,
+        "status": "valid"
+      }
+    ]
+  },
+  "fidelity": {
+    "matrix": [
+      {
+        "element": "TYPE",
+        "status": "match",
+        "evidence": "The inherited system face, 2rem main heading, compact section heading, readable body measure, and explicit field labels match the incumbent Operate system."
+      },
+      {
+        "element": "MATERIAL",
+        "status": "match",
+        "evidence": "Flat native controls, one-pixel borders, white form surfaces, and native details/summary use the incumbent materials without simulated physical effects."
+      },
+      {
+        "element": "GROUND",
+        "status": "match",
+        "evidence": "Source retains #edf3f8. Raw captured ground samples are #eef3f7 consistently at desktop, mobile, and user width; the rendered field remains the pinned cool pale blue with no material temperature drift."
+      },
+      {
+        "element": "Shell, identity, and task navigation",
+        "status": "match",
+        "evidence": "All captures retain the navy ArnaLead header, signed-in alpha or beta identity, task navigation, selected Transfers state, and pale blue work area."
+      },
+      {
+        "element": "First-viewport handover evidence",
+        "status": "match",
+        "evidence": "Snapshot v2, alpha → beta, and current owner beta · v3 remain prominent in accepted desktop, 390px mobile, and 1280px captures. Refusal captures similarly distinguish snapshot v1 from current source v1 or v2."
+      },
+      {
+        "element": "Immutable saved form",
+        "status": "match",
+        "evidence": "Saved lead and recipient selects are visibly disabled; accepted form is locked with disabled action. Source applies readOnly or disabled semantics to locked and configured immutable fields and reuses stored values in the submitted payload."
+      },
+      {
+        "element": "Preserved disclosure evidence",
+        "status": "match",
+        "evidence": "Native disclosure marker remains visible. Expanded accepted captures expose saved manual-channel/language values, RU/KK author context, decision identity/time, and note without truncation."
+      },
+      {
+        "element": "Labelled primary action",
+        "status": "match",
+        "evidence": "The green Save decision action is active in refusal captures and visibly disabled in the closed accepted record; Return remains a separate secondary control."
+      },
+      {
+        "element": "Self and stale refusal",
+        "status": "match",
+        "evidence": "Self-refusal names the designated recipient restriction. Stale-refusal names the outdated snapshot and sender cancellation/new-offer recovery. Both retain the entered decision note; source error handling reports in place rather than rebuilding the form."
+      },
+      {
+        "element": "Responsive form and copy",
+        "status": "match",
+        "evidence": "390px capture reflows navigation and wraps source/context text without clipping; the complete form and footer remain within the capture width."
+      },
+      {
+        "element": "Product truth",
+        "status": "match",
+        "evidence": "SYN-004 and synthetic consultation copy identify demonstration data. Visible descriptions and footer preserve the manual labels, shared workspace, no translation, no external messaging, no import, and no AI limits."
+      }
+    ]
+  },
+  "ceiling": {
+    "status": "reached",
+    "specifics": "The inherited Operate ceiling is met through readable ownership evidence, conventional labelled fields, visible refusal recovery, native disclosures, and mobile wrapping. Additional ornament, display lettering, or motion would not serve this bounded cabinet task."
+  },
+  "material_fixes": [],
+  "keep": "Keep the exact frozen snapshot beside current ownership/version, native evidence disclosure, retained refusal input, and the inherited navy/pale-blue/green cabinet."
+}
